@@ -4,19 +4,29 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
-  padding:0px;
   justify-content:space-between;
+  align-items:center;
+  padding-bottom: 7px;
 }
 
-span {
-padding: 0px 10px
+.navigation {
+align-items:center;
+padding:0px 10px;
+}
+
+.navigation a {
+  color:black;
 }
 
 .headerlogo {
   display: inline-flex;
-  border: solid black;
+  align-items:center;
 }
 
 #headerparagraph {
   color:MediumAquamarine;
+}
+
+#headerlogo {
+  padding-right: 7px;
 }
