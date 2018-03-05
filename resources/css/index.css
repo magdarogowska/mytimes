@@ -15,6 +15,31 @@ p {
   color: black;
 }
 
+footer {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color: MediumAquamarine;
+  height:250px;
+  margin: auto;
+}
+
+.footlogo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 10px;
+  margin-right:10px;
+}
+
+.footnav {
+  font-family: Verdana;
+  font-size: 12px;
+  padding:0 15px;
+}
+
 .imageheading {
   font-family: Georgia;
   font-weight: bold;
@@ -36,7 +61,7 @@ align-items:center;
 padding:0px 10px;
 }
 
-.navigation a {
+span a {
   color:black;
 }
 
@@ -131,4 +156,14 @@ padding:0px 10px;
 #newsbites {
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
+}
+
+#footdiv {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  align-items:center;
+  width:400px;
+  height:100px;
 }
