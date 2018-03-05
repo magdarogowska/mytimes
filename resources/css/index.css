@@ -73,8 +73,8 @@ span a {
 .newscolumns {
   display:flex;
   justify-content:space-between;
-  margin:50px 50px;
-
+  margin:50px auto;
+  max-width:1350px;
 }
 
 .leftcolumn {
